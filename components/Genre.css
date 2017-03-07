@@ -1,0 +1,35 @@
+.Genre {
+  width: 470px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.Genre p {
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.Genre .radioBox {
+  margin: 3px;
+  display: inline-block;
+  background: #181818;
+  width: 110px;
+  padding: 10px 0 10px 0;
+}
+
+.Genre .radioBox input[type=radio] {
+  display: none;
+}
+
+.Genre .radioBox input[type=radio] + label {
+  cursor: pointer;
+  color: grey;
+}
+.Genre .radioBox input[type=radio] + label:hover {
+  color: #1ed660;
+  transition: all 0.5s;
+}
+
+.Genre .radioBox input[type=radio]:checked + label {
+  color: #1ed660;
+}
