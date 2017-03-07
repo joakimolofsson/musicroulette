@@ -9,6 +9,10 @@
   margin-bottom: 5px;
 }
 
+.Genre .tipText {
+  font-size: 12px;
+}
+
 .Genre .radioBox {
   margin: 3px;
   display: inline-block;

@@ -10,6 +10,7 @@ class Genre extends Component {
     return(
       <div className="Genre">
         <p>Genres</p>
+        <p className="tipText">(Pick a genre)</p>
 
         <div className="radioBox">
           <input type="radio" name="selector" value="pop" onClick={this.selectorValue.bind(this)} id="pop"/>

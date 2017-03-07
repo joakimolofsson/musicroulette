@@ -61,6 +61,7 @@ class App extends Component {
         <h3 className="title">Music Roulette</h3>
         <Genre selectedGenre={this.selectedGenre.bind(this)} />
         <div className="rouBtn" onClick={this.roulette.bind(this)}>Roulette</div>
+        <p className="tipText">(Click to randomise five tracks)</p>
         <Tracks tracks={this.state.tracks}/>
       </div>
     );
